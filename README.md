@@ -16,7 +16,7 @@ Key objectives:
 
 ## 📁 Dataset
 
-- **Source**: [Kaggle - Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+- **Source**: [https://www.kaggle.com/datasets/hasibur013/diabetes-dataset?resource=download]
 - **Samples**: 768
 - **Features**: 8 health-related attributes + binary `Outcome` (1: diabetic, 0: non-diabetic)
 
@@ -35,7 +35,7 @@ Key objectives:
 
 ## ⚙️ Methods Applied
 
-### ✅ Data Preprocessing
+### Data Preprocessing
 - Checked for **missing** and **duplicate** values.
 - Replaced **invalid zeros** using:
   - **Mean** for normally distributed columns (e.g., Glucose, BMI)
