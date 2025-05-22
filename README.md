@@ -2,7 +2,7 @@
 
 This repository presents an in-depth statistical analysis of a diabetes dataset using **R**. The objective is to explore and identify key health indicators that contribute to the onset of diabetes, using inferential statistics and visual data exploration.
 
-## 📊 Project Overview
+## Project Overview
 
 This analysis was performed on a public dataset containing medical records of female patients. The dataset includes features such as glucose concentration, BMI, insulin levels, age, and pregnancy count, among others. The aim is to assess the relationship between these features and the likelihood of developing diabetes.
 
@@ -14,7 +14,7 @@ Key objectives:
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [https://www.kaggle.com/datasets/hasibur013/diabetes-dataset?resource=download]
 - **Samples**: 768
@@ -33,7 +33,7 @@ Key objectives:
 
 ---
 
-## ⚙️ Methods Applied
+## Methods Applied
 
 ### Data Preprocessing
 - Checked for **missing** and **duplicate** values.
@@ -42,12 +42,12 @@ Key objectives:
   - **Median** for skewed columns (e.g., Insulin, SkinThickness)
 - Outlier identification using visual thresholds.
 
-### 📈 Exploratory Analysis
+### Exploratory Analysis
 - Distribution plots for key attributes
 - Pairwise scatter plots and correlation matrix
 - Stratified visualizations by diabetes outcome
 
-### 📊 Statistical Inference
+### Statistical Inference
 - **Confidence Intervals**: Estimated means across different sample sizes.
 - **Hypothesis Testing**:
   - Glucose levels differ significantly between diabetic and non-diabetic patients.
@@ -57,17 +57,15 @@ Key objectives:
   - Insulin & Blood Pressure
   - Glucose & Age
 
-### 🧪 Clustering Analysis
+### Clustering Analysis
 - K-means clustering to identify risk profiles based on Glucose and BMI.
 
 ---
 
-## 📌 Key Insights
+## Key Insights
 
 - Diabetic patients show higher mean glucose and BMI levels.
 - Age and number of pregnancies have weak but noticeable influence.
 - Family history (Diabetes Pedigree Function) has minor correlation with glucose.
 - Glucose and BMI can help define three clear risk groups.
 - Confidence intervals shrink with increasing sample size, enhancing statistical reliability.
-
---
